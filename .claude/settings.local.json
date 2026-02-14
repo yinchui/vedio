@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd detailed design documentation for AI video editing software\n\n- Complete system architecture design \\(frontend-backend separation\\)\n- Core functionality specifications \\(AI editing, subtitles, music\\)\n- UI/UX design with professional timeline editor\n- Agent Teams development workflow \\(5 specialized roles\\)\n- API configuration checklist \\(Qwen, Xunfei, FFmpeg\\)\n- Future roadmap and risk mitigation strategies\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git config:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
